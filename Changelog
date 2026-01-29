@@ -1,42 +1,47 @@
-# Changelog
+# VonSEOWP 🚀
 
-All notable changes to the VonSEOWP plugin will be documented in this file.
+A premium-grade, lightweight SEO toolkit for WordPress. Designed for performance, cleanliness, and a superior user experience.
 
-## [2.1.0] - 2026-01-30
-### Added
-- **Competitor Analysis Module**: Real-time "SEO Math" comparison against any URL.
-- **AI Magic**: Ultra-compact AI suggestions for Titles, Descriptions, and Keywords.
-- **Bi-directional Sync**: Site Title & Tagline synchronized with WP General Settings.
-- **Support UI Facelift**: Premium Glassmorphism design with Amber/Gold button.
-- **Help & Tutorial Tab**: Integrated quick-start guides and setup checklist.
-- **Build System**: Automated versioning and ZIP packaging via Python.
+![Version](https://img.shields.io/badge/version-2.1.1-blue.svg)
+![License](https://img.shields.io/badge/license-GPLv3-blue.svg)
 
-### Fixed
-- **Security**: Hardened against XSS (Deep deep audit).
-- **Security**: Patched SSRF vulnerability in competitor scanner.
-- **Security**: Added proper nonce and capability checks to all AJAX actions.
-- **UI**: Fixed `line-clamp` CSS compatibility and button centering.
+VonSEOWP eliminates the need for bloated, ad-heavy SEO plugins. We focus on **High-Performance Metadata** and **Modern UI** without creating a single custom database table.
 
-## [2.0.0] - 2026-01-20
-- **NEW**: Full Premium Suite release.
-- **NEW**: XML Sitemap Generator (`/sitemap.xml`).
-- **NEW**: Redirection Manager with 404 Logging.
-- **NEW**: Local SEO & Schema markup support.
-- **NEW**: Image SEO (Auto ALT/Title tags).
-- **NEW**: Content Analysis in Post Editor.
+---
 
-## [1.13.0]
-- **FIX**: Adjusted updater download link to correct package failure.
+## 🌟 Key Features
 
-## [1.12.0]
-- **NEW**: Added Auto-Updater directly from GitHub releases.
-- **FIX**: Minor stability improvements.
+### 1. Modern Sidebar Meta Box
+- **Icon-based Tabs**: Ultra-compact design for a better editing experience.
+- **Micro Google Preview**: Real-time search result visualization.
+- **AI Magic**: Instant suggestions for titles, descriptions, and keywords.
+- **Competitor SEO Math**: Contrast your metrics against top-ranking URLs.
 
-## [1.1.0]
-- **NEW**: Complete UI Overhaul - introduced premium dashboard design.
-- **FIX**: Resolved PHP Warning "Undefined array key 'site_title'".
-- **IMPROVED**: Better spacing and typography in admin panels.
+### 2. Advanced SEO Tools
+- **Automated XML Sitemaps**: Dynamic `/sitemap.xml` for search engines.
+- **Redirection Manager**: One-click 301 redirects & 404 error logging.
+- **Smart Schema (JSON-LD)**: Local Business, Review Ratings, and Breadcrumbs.
+- **Image SEO**: Auto-optimized ALT and Title tags.
 
-## [1.0.0]
-- Initial release.
-- Ported core logic from VonCMS v1.9.6.
+### 3. Professional Performance
+- **Zero Database Bloat**: Uses native WordPress `post_meta` and `wp_options`.
+- **Air-Tight Security**: audited for XSS, SSRF, and CSRF.
+- **Built for Devs**: Hooks and filters available for customization.
+
+## 🛠 Installation
+
+1. Download the [Latest Release ZIP](https://github.com/Vondereich/VonSEO-For-Wordpress/releases/latest).
+2. Upload via **Plugins > Add New > Upload** in WordPress.
+3. Activate and navigate to the **VonSEOWP** dashboard.
+
+## 📦 Automated Releases (OTA)
+
+This repository is configured with **GitHub Actions** for professional OTA updates:
+
+1.  **Tag your code**: Push a new tag (e.g., `git tag v2.1.0` then `git push origin v2.1.0`).
+2.  **Auto-Build**: GitHub will automatically run the build script.
+3.  **Auto-Release**: A new GitHub Release will be created, and the production-ready ZIP will be attached as an asset.
+4.  **Auto-Update**: Your users' WordPress dashboards will detect the new version and offer an "Update Now" link.
+
+## 📄 License
+Licensed under the GPLv3 or later.
