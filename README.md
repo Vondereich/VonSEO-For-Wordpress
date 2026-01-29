@@ -2,7 +2,7 @@
 
 A premium-grade, lightweight SEO toolkit for WordPress. Designed for performance, cleanliness, and a superior user experience.
 
-![Version](https://img.shields.io/badge/version-2.1.0-blue.svg)
+![Version](https://img.shields.io/badge/version-2.1.1-blue.svg)
 ![License](https://img.shields.io/badge/license-GPLv3-blue.svg)
 
 VonSEOWP eliminates the need for bloated, ad-heavy SEO plugins. We focus on **High-Performance Metadata** and **Modern UI** without creating a single custom database table.
@@ -30,7 +30,7 @@ VonSEOWP eliminates the need for bloated, ad-heavy SEO plugins. We focus on **Hi
 
 ## 🛠 Installation
 
-1. Download the [Latest Release ZIP](https://github.com/Vondereich/VonSEOWP/releases/latest).
+1. Download the [Latest Release ZIP](https://github.com/Vondereich/VonSEO-For-Wordpress/releases/latest).
 2. Upload via **Plugins > Add New > Upload** in WordPress.
 3. Activate and navigate to the **VonSEOWP** dashboard.
 
