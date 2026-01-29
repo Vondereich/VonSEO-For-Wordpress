@@ -1,0 +1,42 @@
+# Changelog
+
+All notable changes to the VonSEOWP plugin will be documented in this file.
+
+## [2.1.0] - 2026-01-30
+### Added
+- **Competitor Analysis Module**: Real-time "SEO Math" comparison against any URL.
+- **AI Magic**: Ultra-compact AI suggestions for Titles, Descriptions, and Keywords.
+- **Bi-directional Sync**: Site Title & Tagline synchronized with WP General Settings.
+- **Support UI Facelift**: Premium Glassmorphism design with Amber/Gold button.
+- **Help & Tutorial Tab**: Integrated quick-start guides and setup checklist.
+- **Build System**: Automated versioning and ZIP packaging via Python.
+
+### Fixed
+- **Security**: Hardened against XSS (Deep deep audit).
+- **Security**: Patched SSRF vulnerability in competitor scanner.
+- **Security**: Added proper nonce and capability checks to all AJAX actions.
+- **UI**: Fixed `line-clamp` CSS compatibility and button centering.
+
+## [2.0.0] - 2026-01-20
+- **NEW**: Full Premium Suite release.
+- **NEW**: XML Sitemap Generator (`/sitemap.xml`).
+- **NEW**: Redirection Manager with 404 Logging.
+- **NEW**: Local SEO & Schema markup support.
+- **NEW**: Image SEO (Auto ALT/Title tags).
+- **NEW**: Content Analysis in Post Editor.
+
+## [1.13.0]
+- **FIX**: Adjusted updater download link to correct package failure.
+
+## [1.12.0]
+- **NEW**: Added Auto-Updater directly from GitHub releases.
+- **FIX**: Minor stability improvements.
+
+## [1.1.0]
+- **NEW**: Complete UI Overhaul - introduced premium dashboard design.
+- **FIX**: Resolved PHP Warning "Undefined array key 'site_title'".
+- **IMPROVED**: Better spacing and typography in admin panels.
+
+## [1.0.0]
+- Initial release.
+- Ported core logic from VonCMS v1.9.6.
