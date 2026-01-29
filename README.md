@@ -1,11 +1,13 @@
 # VonSEOWP 🚀
 
-A premium-grade, lightweight SEO toolkit for WordPress. Designed for performance, cleanliness, and a superior user experience.
+**The official SEO engine of the VonCMS ecosystem.**
+
+A premium-grade, ultra-lightweight SEO toolkit ported from the legendary VonCMS core. Built for high-performance websites where speed, security, and precision are non-negotiable.
 
 ![Version](https://img.shields.io/badge/version-2.1.1-blue.svg)
 ![License](https://img.shields.io/badge/license-GPLv3-blue.svg)
 
-VonSEOWP eliminates the need for bloated, ad-heavy SEO plugins. We focus on **High-Performance Metadata** and **Modern UI** without creating a single custom database table.
+VonSEOWP eliminates the need for bloated, ad-heavy legacy SEO plugins. We deliver **High-Performance Metadata**, **Smart Schema**, and a **State-of-the-Art UI**—all powered by the same rock-solid architecture that drives VonCMS. No custom database tables. No bloat. Just pure SEO power.
 
 ---
 
